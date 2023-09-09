@@ -1,0 +1,57 @@
+2022-04-27T11:06:15+00:00 CRITICAL Out of memory (allocated 18874368) (tried to allocate 20480 bytes) in C:\xampp\htdocs\wordpresssite\wordpress12\wp-includes\rest-api\class-wp-rest-server.php on line 1482
+
+2022-04-27T13:16:58+00:00 CRITICAL Uncaught Error: Call to a member function is_editable_by_current_user() on bool in C:\xampp\htdocs\wordpresssite\wordpress12\wp-content\plugins\elementor\includes\managers\widgets.php:367
+Stack trace:
+#0 [internal function]: Elementor\Widgets_Manager->ajax_render_widget(Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#1 C:\xampp\htdocs\wordpresssite\wordpress12\wp-content\plugins\elementor\core\common\modules\ajax\module.php(171): call_user_func(Array, Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#2 C:\xampp\htdocs\wordpresssite\wordpress12\wp-includes\class-wp-hook.php(307): Elementor\Core\Common\Modules\Ajax\Module->handle_ajax_request('')
+#3 C:\xampp\htdocs\wordpresssite\wordpress12\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#4 C:\xampp\htdocs\wordpresssite\wordpress12\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#5 C:\xampp\htdocs\wordpresssite\wordpress12\wp-admin\admin-ajax.php(187): do_action('wp_ajax_element...')
+#6 {main}
+  thrown in C:\xampp\htdocs\wordpresssite\wordpress12\wp-content\plugins\elementor\includes\managers\widgets.php on line 367
+
+2022-04-27T13:17:04+00:00 CRITICAL Uncaught Error: Call to a member function is_editable_by_current_user() on bool in C:\xampp\htdocs\wordpresssite\wordpress12\wp-content\plugins\elementor\includes\managers\widgets.php:367
+Stack trace:
+#0 [internal function]: Elementor\Widgets_Manager->ajax_render_widget(Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#1 C:\xampp\htdocs\wordpresssite\wordpress12\wp-content\plugins\elementor\core\common\modules\ajax\module.php(171): call_user_func(Array, Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#2 C:\xampp\htdocs\wordpresssite\wordpress12\wp-includes\class-wp-hook.php(307): Elementor\Core\Common\Modules\Ajax\Module->handle_ajax_request('')
+#3 C:\xampp\htdocs\wordpresssite\wordpress12\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#4 C:\xampp\htdocs\wordpresssite\wordpress12\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#5 C:\xampp\htdocs\wordpresssite\wordpress12\wp-admin\admin-ajax.php(187): do_action('wp_ajax_element...')
+#6 {main}
+  thrown in C:\xampp\htdocs\wordpresssite\wordpress12\wp-content\plugins\elementor\includes\managers\widgets.php on line 367
+
+2022-04-27T13:17:05+00:00 CRITICAL Uncaught Error: Call to a member function is_editable_by_current_user() on bool in C:\xampp\htdocs\wordpresssite\wordpress12\wp-content\plugins\elementor\includes\managers\widgets.php:367
+Stack trace:
+#0 [internal function]: Elementor\Widgets_Manager->ajax_render_widget(Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#1 C:\xampp\htdocs\wordpresssite\wordpress12\wp-content\plugins\elementor\core\common\modules\ajax\module.php(171): call_user_func(Array, Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#2 C:\xampp\htdocs\wordpresssite\wordpress12\wp-includes\class-wp-hook.php(307): Elementor\Core\Common\Modules\Ajax\Module->handle_ajax_request('')
+#3 C:\xampp\htdocs\wordpresssite\wordpress12\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#4 C:\xampp\htdocs\wordpresssite\wordpress12\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#5 C:\xampp\htdocs\wordpresssite\wordpress12\wp-admin\admin-ajax.php(187): do_action('wp_ajax_element...')
+#6 {main}
+  thrown in C:\xampp\htdocs\wordpresssite\wordpress12\wp-content\plugins\elementor\includes\managers\widgets.php on line 367
+
+2022-04-27T13:17:06+00:00 CRITICAL Uncaught Error: Call to a member function is_editable_by_current_user() on bool in C:\xampp\htdocs\wordpresssite\wordpress12\wp-content\plugins\elementor\includes\managers\widgets.php:367
+Stack trace:
+#0 [internal function]: Elementor\Widgets_Manager->ajax_render_widget(Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#1 C:\xampp\htdocs\wordpresssite\wordpress12\wp-content\plugins\elementor\core\common\modules\ajax\module.php(171): call_user_func(Array, Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#2 C:\xampp\htdocs\wordpresssite\wordpress12\wp-includes\class-wp-hook.php(307): Elementor\Core\Common\Modules\Ajax\Module->handle_ajax_request('')
+#3 C:\xampp\htdocs\wordpresssite\wordpress12\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#4 C:\xampp\htdocs\wordpresssite\wordpress12\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#5 C:\xampp\htdocs\wordpresssite\wordpress12\wp-admin\admin-ajax.php(187): do_action('wp_ajax_element...')
+#6 {main}
+  thrown in C:\xampp\htdocs\wordpresssite\wordpress12\wp-content\plugins\elementor\includes\managers\widgets.php on line 367
+
+2022-04-27T13:18:06+00:00 CRITICAL Uncaught Error: Call to a member function is_built_with_elementor() on bool in C:\xampp\htdocs\wordpresssite\wordpress12\wp-content\plugins\elementor\core\documents-manager.php:493
+Stack trace:
+#0 [internal function]: Elementor\Core\Documents_Manager->ajax_save(Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#1 C:\xampp\htdocs\wordpresssite\wordpress12\wp-content\plugins\elementor\core\common\modules\ajax\module.php(171): call_user_func(Array, Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#2 C:\xampp\htdocs\wordpresssite\wordpress12\wp-includes\class-wp-hook.php(307): Elementor\Core\Common\Modules\Ajax\Module->handle_ajax_request('')
+#3 C:\xampp\htdocs\wordpresssite\wordpress12\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#4 C:\xampp\htdocs\wordpresssite\wordpress12\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#5 C:\xampp\htdocs\wordpresssite\wordpress12\wp-admin\admin-ajax.php(187): do_action('wp_ajax_element...')
+#6 {main}
+  thrown in C:\xampp\htdocs\wordpresssite\wordpress12\wp-content\plugins\elementor\core\documents-manager.php on line 493
+
